@@ -76,6 +76,9 @@
             </p>
             <h2 class="mb-3">프로젝트 명 : KH-CAFE ERP</h2>
             <p>커피의 재료인 원두, 설탕 등 원자재의 발주부터 입고, 출고 등 재고관리와 주문 관리, 통계 등을 하나의 프로그램으로 통합 관리할 수 있게 하여 직원들의 업무 효율성을 증가시킨다.</p>
+            <p>
+              <img src="images/kh-erp.png" alt="" class="img-fluid">
+            </p>
             <h2 class="mb-3 mt-5">구현 기능</h2>
             <p>회원서비스 : 로그인, 로그아웃, 회원가입, 이메일 인증, 스프링 시큐리티, ID&PW 찾기</p>
             <p>테이블 : 상품관리, 발주관리, 입고관리, 출고관리, 주문관리, 직원관리</p>
@@ -84,100 +87,16 @@
             <p>엑셀 다운로드 : 상품관리, 발주관리, 입고관리, 출고관리, 주문관리</p>
             <p>게시판(CS, 공지사항) : 작성, 수정, 삭제, 검색</p>
             <p>
-              <img src="images/kh-erp.png" alt="" class="img-fluid">
+              <img src="images/manageProduct.png" alt="" class="img-fluid">
             </p>
-            <h2 class="mb-3 mt-5">ERD 다이어그램</h2>
-            <p></p>
-            <p></p>
-            <p>Adipisci vero culpa, eius nobis soluta. Dolore, maxime ullam ipsam quidem, dolor distinctio similique asperiores voluptas enim, exercitationem ratione aut adipisci modi quod quibusdam iusto, voluptates beatae iure nemo itaque laborum. Consequuntur et pariatur totam fuga eligendi vero dolorum provident. Voluptatibus, veritatis. Beatae numquam nam ab voluptatibus culpa, tenetur recusandae!</p>
-            <p>Voluptas dolores dignissimos dolorum temporibus, autem aliquam ducimus at officia adipisci quasi nemo a perspiciatis provident magni laboriosam repudiandae iure iusto commodi debitis est blanditiis alias laborum sint dolore. Dolores, iure, reprehenderit. Error provident, pariatur cupiditate soluta doloremque aut ratione. Harum voluptates mollitia illo minus praesentium, rerum ipsa debitis, inventore?</p>
-            
+            <h2 class="mb-3 mt-5">담당 기능 : 상품관리</h2>
+            <p>로그인 한 사용자의 지점 번호를 세션에서 받아와, 해당지점이 보유하고 있는 상품들의 목록을 불러온다.</p>
+            <p>상품 목록에서, 각 상품마다 모달을 사용해 상품에 대한 상세 정보를 조회 가능하게 구현 하였다.</p>
+			<p>정보 확인과 함께 즉시 수정할 사항이 있으면 수정 가능하도록 input 창을 함께 만들었다.</p>            
+			<p>상세보기 시에 상품에 대한 이미지를 확인 할 수 있으며, 이미지 수정을 가능하게 만들었고, 적용 버튼을 누르면 ajax를 통해 바뀐 이미지를 바로 확인 할 수 있게 하였다.</p>            
+			<p>삭제 버튼 클릭 시, 상품 삭제가 가능하다.</p>
+			<p>검색어를 통해 검색이 가능하며, 카테고리명, 상품명 등 여러 조건의 다중검색도 가능하다.</p>
 
-            <div class="pt-5 mt-5">
-              <h3 class="mb-5">6 Comments</h3>
-              <ul class="comment-list">
-                <li class="comment">
-                  <div class="vcard bio">
-                    <img src="images/person_1.jpg" alt="Image placeholder">
-                  </div>
-                  <div class="comment-body">
-                    <h3>John Doe</h3>
-                    <div class="meta">June 27, 2018 at 2:21pm</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                    <p><a href="#" class="reply">Reply</a></p>
-                  </div>
-                </li>
-
-                <li class="comment">
-                  <div class="vcard bio">
-                    <img src="images/person_1.jpg" alt="Image placeholder">
-                  </div>
-                  <div class="comment-body">
-                    <h3>John Doe</h3>
-                    <div class="meta">June 27, 2018 at 2:21pm</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                    <p><a href="#" class="reply">Reply</a></p>
-                  </div>
-
-                  <ul class="children">
-                    <li class="comment">
-                      <div class="vcard bio">
-                        <img src="images/person_1.jpg" alt="Image placeholder">
-                      </div>
-                      <div class="comment-body">
-                        <h3>John Doe</h3>
-                        <div class="meta">June 27, 2018 at 2:21pm</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                        <p><a href="#" class="reply">Reply</a></p>
-                      </div>
-
-
-                      <ul class="children">
-                        <li class="comment">
-                          <div class="vcard bio">
-                            <img src="images/person_1.jpg" alt="Image placeholder">
-                          </div>
-                          <div class="comment-body">
-                            <h3>John Doe</h3>
-                            <div class="meta">June 27, 2018 at 2:21pm</div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                            <p><a href="#" class="reply">Reply</a></p>
-                          </div>
-
-                            <ul class="children">
-                              <li class="comment">
-                                <div class="vcard bio">
-                                  <img src="images/person_1.jpg" alt="Image placeholder">
-                                </div>
-                                <div class="comment-body">
-                                  <h3>John Doe</h3>
-                                  <div class="meta">June 27, 2018 at 2:21pm</div>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                                  <p><a href="#" class="reply">Reply</a></p>
-                                </div>
-                              </li>
-                            </ul>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="comment">
-                  <div class="vcard bio">
-                    <img src="images/person_1.jpg" alt="Image placeholder">
-                  </div>
-                  <div class="comment-body">
-                    <h3>John Doe</h3>
-                    <div class="meta">June 27, 2018 at 2:21pm</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                    <p><a href="#" class="reply">Reply</a></p>
-                  </div>
-                </li>
-              </ul>
-              <!-- END comment-list -->
-              
-            </div>
 
           </div> <!-- .col-md-8 -->
           <div class="col-md-4 sidebar ftco-animate">
