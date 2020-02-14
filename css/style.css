@@ -7817,7 +7817,7 @@ h1, h2, h3, h4, h5,
   @media (min-width: 768px) {
     .block-3 .text, .block-3 .image {
       width: 50%;
-      padding: 10% 7%; } }
+      padding: 10%; } }
 
 .block-3 .text {
   background: #f8faff; }
