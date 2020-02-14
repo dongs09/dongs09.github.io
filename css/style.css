@@ -7838,9 +7838,9 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
-  @media (max-width: 825px) {
+  @media (max-width: 767.98px) {
     .block-3 .image {
-      height: 495px; } }
+      height: 300px; } }
 
 .block-5 {
   overflow: hidden;
