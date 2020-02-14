@@ -1,3 +1,4 @@
+
 /*!
  * Bootstrap v4.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -7837,9 +7838,9 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
-  @media (max-width: 767.98px) {
+  @media (max-width: 825px) {
     .block-3 .image {
-      height: 300px; } }
+      height: 495px; } }
 
 .block-5 {
   overflow: hidden;
